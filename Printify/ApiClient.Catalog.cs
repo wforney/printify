@@ -1,16 +1,16 @@
 ﻿namespace Printify
 {
-    using Microsoft.Extensions.Logging;
+	using Microsoft.Extensions.Logging;
 
-    using Printify.Models;
+	using Printify.Models.Catalog;
 
-    using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Text.Json;
-    using System.Threading;
-    using System.Threading.Tasks;
+	using System.Collections.Generic;
+	using System.Diagnostics.CodeAnalysis;
+	using System.Text.Json;
+	using System.Threading;
+	using System.Threading.Tasks;
 
-    public partial class ApiClient : ICatalogClient
+	public partial class ApiClient : ICatalogClient
     {
         /// <inheritdoc />
         [SuppressMessage("Usage", "SecurityIntelliSenseCS:MS Security rules violation", Justification = "Uri is not user input.")]

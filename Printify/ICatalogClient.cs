@@ -4,36 +4,36 @@
 
 namespace Printify
 {
-    using Printify.Models;
+	using Printify.Models.Catalog;
 
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
+	using System.Collections.Generic;
+	using System.Threading;
+	using System.Threading.Tasks;
 
-    /// <summary>
-    /// The catalog client interface. <seealso href="https://developers.printify.com/#catalog" />
-    /// </summary>
-    /// <remarks>
-    /// <para>
-    /// Through the Catalog resource you can see all of the products, product variants, variant
-    /// options and print providers available in the Printify catalog.
-    /// </para>
-    /// <para>
-    /// Products in the Printify catalog are referred to as blueprints (only after user artwork has
-    /// been added, are they referred to as products).
-    /// </para>
-    /// <para>
-    /// Every blueprint in the printify catalog has multiple Print Providers that offer that
-    /// blueprint. In addition to general differences between Print Providers including location and
-    /// print technology employed, each Print Provider also offers different colors, sizes, print
-    /// areas and prices.
-    /// </para>
-    /// <para>
-    /// Each Print Provider's blueprint has specific size and color combinations known as variants.
-    /// Variants also contain information on a products available print areas and sizes.
-    /// </para>
-    /// </remarks>
-    public interface ICatalogClient
+	/// <summary>
+	/// The catalog client interface. <seealso href="https://developers.printify.com/#catalog" />
+	/// </summary>
+	/// <remarks>
+	/// <para>
+	/// Through the Catalog resource you can see all of the products, product variants, variant
+	/// options and print providers available in the Printify catalog.
+	/// </para>
+	/// <para>
+	/// Products in the Printify catalog are referred to as blueprints (only after user artwork has
+	/// been added, are they referred to as products).
+	/// </para>
+	/// <para>
+	/// Every blueprint in the printify catalog has multiple Print Providers that offer that
+	/// blueprint. In addition to general differences between Print Providers including location and
+	/// print technology employed, each Print Provider also offers different colors, sizes, print
+	/// areas and prices.
+	/// </para>
+	/// <para>
+	/// Each Print Provider's blueprint has specific size and color combinations known as variants.
+	/// Variants also contain information on a products available print areas and sizes.
+	/// </para>
+	/// </remarks>
+	public interface ICatalogClient
     {
         /// <summary>
         /// <para>Gets the specific blueprint.</para>

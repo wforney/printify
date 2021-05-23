@@ -4,15 +4,17 @@
 
 namespace Printify.Models.Orders
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.Text.Json.Serialization;
+	using Printify.Models.Catalog;
 
-    /// <summary>
-    /// The order class.
-    /// </summary>
-    public class Order
+	using System;
+	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
+	using System.Text.Json.Serialization;
+
+	/// <summary>
+	/// The order class.
+	/// </summary>
+	public class Order
     {
         /// <summary>
         /// Gets or sets the delivery details of the order's recipient.

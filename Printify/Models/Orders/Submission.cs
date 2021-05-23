@@ -4,13 +4,15 @@
 
 namespace Printify.Models.Orders
 {
-    using System.Collections.Generic;
-    using System.Text.Json.Serialization;
+	using Printify.Models.Catalog;
 
-    /// <summary>
-    /// <para>The order submission record.</para>
-    /// </summary>
-    public record Submission
+	using System.Collections.Generic;
+	using System.Text.Json.Serialization;
+
+	/// <summary>
+	/// <para>The order submission record.</para>
+	/// </summary>
+	public record Submission
     {
         /// <summary>
         /// Gets or sets the delivery details of the order's recipient.

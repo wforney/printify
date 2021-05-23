@@ -4,22 +4,22 @@
 
 namespace Printify
 {
-    using Printify.Models;
+	using Printify.Models.Shops;
 
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
+	using System.Collections.Generic;
+	using System.Threading;
+	using System.Threading.Tasks;
 
-    /// <summary>
-    /// The shop client interface.
-    /// <seealso href="https://developers.printify.com/#shops"/>
-    /// </summary>
-    /// <remarks>
-    /// All product creation and order submission in a Printify Merchant's account happens through a
-    /// shop. Merchant's can have multiple shops in one Printify account. Each of these shops can be
-    /// connected to different sales channels and each has independent products, orders, and analytics.
-    /// </remarks>
-    public interface IShopClient
+	/// <summary>
+	/// The shop client interface.
+	/// <seealso href="https://developers.printify.com/#shops"/>
+	/// </summary>
+	/// <remarks>
+	/// All product creation and order submission in a Printify Merchant's account happens through a
+	/// shop. Merchant's can have multiple shops in one Printify account. Each of these shops can be
+	/// connected to different sales channels and each has independent products, orders, and analytics.
+	/// </remarks>
+	public interface IShopClient
     {
         /// <summary>
         /// <para>Disconnects the shop.</para>

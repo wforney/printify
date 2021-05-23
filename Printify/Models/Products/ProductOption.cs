@@ -1,4 +1,4 @@
-﻿// <copyright file="Option.cs" company="improvGroup, LLC">
+// <copyright file="Option.cs" company="improvGroup, LLC">
 //     Copyright © 2021 improvGroup, LLC. All Rights Reserved.
 // </copyright>
 
@@ -7,7 +7,7 @@ namespace Printify.Models.Products
     /// <summary>
     /// The product option class.
     /// </summary>
-    public class Option
+    public class ProductOption
     {
         /// <summary>
         /// Gets or sets the name.
